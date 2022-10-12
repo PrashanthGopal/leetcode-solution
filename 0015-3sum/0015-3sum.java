@@ -1,9 +1,6 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new LinkedList();
-        if(nums == null || nums.length == 0 ){
-            return result;
-        }
         
         Arrays.sort(nums);
         
